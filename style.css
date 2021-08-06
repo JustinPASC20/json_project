@@ -5,6 +5,12 @@ body {
     font-size: 20px;
 }
 
+h1 {
+    text-align: center;
+    color: #F4B942;
+    text-decoration: underline;
+}
+
 #profile {
     display: block;
 }

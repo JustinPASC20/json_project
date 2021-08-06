@@ -21,7 +21,7 @@ let dummyName = document.createElement("p");
 let dummyEmail =document.createElement("p");
 
 //Add content
-textNames.innerHTML = "Name: " + randUser.results[i].name.first + " " + randUser.results[i].name.last;
+textNames.innerHTML = "Name: " + randUser.results[i].name.first + " " + randUser.results[i].name.last + ", " + randUser.results[i].dob.age;
 textEmails.innerHTML = "Email: " + randUser.results[i].email;
 dummyName.innerHTML = "City: " + randUser.results[i].location.state;
 dummyEmail.innerHTML = "Timezone: " + randUser.results[i].location.timezone.offset + ";" + randUser.results[i].location.timezone.description;
